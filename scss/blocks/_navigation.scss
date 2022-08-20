@@ -1,0 +1,85 @@
+.header {
+    padding-top: 30px;
+    padding-bottom: 140px;
+    &__top {
+        color: $main-color;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 32px;
+    }
+    &__top-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 58px;
+    }
+    &__content {
+        position: relative;
+    }
+    &__content-inner {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+    }
+    &__content-left {
+        width: 517px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__content-right {
+        position: relative;
+        height: 1015px;
+        width: 615px;
+        background-image: url('../img/girl.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 10;
+    }
+    &__yellow-rectangle {
+        position: absolute;
+        width: 500px;
+        height: 660px;
+        left: 52%;
+        bottom: 0;
+        background: #FFE600;
+        border-radius: 250px 250px 0px 0px;
+    }
+    &__info {
+        color: $main-color;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    &__svg-1 {
+        position: absolute;
+        top: 10%;
+        left: 26%;
+    }
+    &__svg-2 {
+        position: absolute;
+        top: 4%;
+        right: 0;
+    }
+}
+
+.header-btn {
+    height: 100%;
+    &__up {
+        background-color: $main-color;
+        width: 152px;
+        height: 100%;
+        margin-left: 31px;
+        box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+        border-radius: 5px;
+        cursor: pointer;
+        @include text-buttons();
+        color: white;
+    }
+}

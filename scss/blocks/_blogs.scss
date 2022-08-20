@@ -1,0 +1,89 @@
+.blogs {
+    padding-bottom: 175px;
+    &__inner {
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 90px;
+    }
+    &__left {
+        width: 536px;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
+        padding-left: 40px;
+    }
+    &__left-img {
+        width: 456px;
+        height: 214px;
+        background-image: url(../img/blogs_girl_1.png);
+        margin-top: -33px;
+        margin-bottom: 30px;
+    }
+    &__left-text-new {
+        margin-bottom: 30px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: -0.5px;
+        color: #FF5F5F;
+    }
+    &__left-text-info {
+        margin-bottom: 84px;
+        width: 456px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 130%;
+        color: #313131;
+        opacity: 0.88;
+    }
+    &__left-text-descr {
+        position: relative;
+        width: 456px;
+        min-height: 144px;
+        padding-left: 30px;
+        padding-top: 30px;
+        background: #EEF7FB;
+        backdrop-filter: blur(100px);
+        top: 35px;
+        
+    }
+    &__right {
+        width: 536px;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
+        padding-left: 40px;
+    }
+    &__right-img {
+        width: 456px;
+        height: 214px;
+        background-image: url(../img/blogs_girl_2.png);
+        margin-top: -33px;
+        margin-bottom: 90px;
+    }
+    &__right-text-info {
+        margin-bottom: 82px;
+        width: 456px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 130%;
+        color: #313131;
+        opacity: 0.88;
+    }
+    &__right-text-descr {
+        position: relative;
+        width: 456px;
+        min-height: 144px;
+        padding-left: 30px;
+        padding-top: 30px;
+        background: #EEF7FB;
+        backdrop-filter: blur(100px);
+        top: 35px;
+    }
+}

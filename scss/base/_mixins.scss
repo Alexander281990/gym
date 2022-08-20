@@ -1,0 +1,44 @@
+@mixin text-buttons() {
+    color: $main-color;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+@mixin text-descr() {
+    color: $main-color;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+@mixin style-h2() {
+    color: $main-color;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 82px;
+}
+
+@mixin text-item {
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #5F5F5F;
+}
+
+@mixin title-item {
+  color: $main-color;
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+}

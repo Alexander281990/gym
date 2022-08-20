@@ -1,0 +1,64 @@
+@import 'base/_variables';
+@import 'base/_mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-header {
+    width: 1310px;
+    margin: 0 auto;
+}
+
+.container-about {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.container-blogs {
+    width: 1096px;
+    margin: 0 auto;
+}
+
+.container-faqs {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container-testimonials {
+    width: 1025px;
+    margin: 0 auto;
+}
+
+.container-footer {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/blocks-bem';
+
+@import 'blocks/navigation';
+@import 'blocks/header';
+@import 'blocks/partners';
+@import 'blocks/about';
+@import 'blocks/works';
+@import 'blocks/blogs';
+@import 'blocks/faqs';
+@import 'blocks/testimonials';
+@import 'blocks/footer';
+
+@import 'media/m1439';
+@import 'media/m1399';
+@import 'media/m1299';
+@import 'media/m1200';
+@import 'media/m992';
+@import 'media/m768';
+@import 'media/m576';
+

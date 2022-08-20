@@ -1,0 +1,38 @@
+.partners {
+    position: relative;
+    padding-bottom: 140px;
+    &__dots {
+        position: absolute;
+        bottom: 5%;
+        left: 0;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__right {
+        display: grid;
+        grid-template-columns: 261px 261px;
+        grid-template-rows: 108px 108px 108px;
+        grid-gap: 40px;
+        
+    }
+    &__left {
+        padding-top: 35px;
+    }
+    &__item {
+        background: #FFFFFF;
+        box-shadow: 0px 20px 50px rgba(49, 49, 49, 0.05);
+        border-radius: 10px;
+        position: relative;
+    }
+    &__item-4 {
+        grid-column: 2 / 3 ;
+    }
+    &__img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

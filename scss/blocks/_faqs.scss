@@ -1,0 +1,22 @@
+.faqs {
+    margin-bottom: 140px;
+    &__h2 {
+        text-align: center;
+    }
+    &__text {
+        text-align: center;
+        width: auto;
+    }
+    &__content {
+        width: 100%;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        margin-top: 60px;
+        background: rgba(255, 229, 0, 0.1);
+        display: grid;
+        grid-template-columns: repeat(2, 586px);
+        grid-template-rows: repeat(2, auto);
+        gap: 30px;
+        justify-content: center;
+    }
+}

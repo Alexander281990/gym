@@ -1,0 +1,60 @@
+.about {
+    position: relative;
+    padding-bottom: 140px;
+    &__dots {
+        position: absolute;
+        left: -7px;
+        bottom: 50px;
+    }
+    &__inner {
+        display: flex;
+        padding-bottom: 129px;
+        position: relative;
+    }
+    &__img-fon {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    &__left {
+        display: flex;
+        flex-direction: column;
+        width: 509px;
+        margin-right: 85px;
+    }
+    &__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 586px;
+    }
+    &__left-img {
+        position: relative;
+        width: 100%;
+        height: 676px;
+        background-image: url('../img/about_us_girl_2.png');
+        margin-top: 75px;
+    }
+    &__right-img {
+        position: relative;
+        width: 100%;
+        height: 905px;
+        background-image: url('../img/about_us_girl_1.png');
+        margin-top: 145px;
+    }
+    &__left-text {
+        width: 509px;
+        @include text-descr();
+        margin-top: 75px;
+    }
+    &__left-svg {
+        position: absolute;
+        top: 22px;
+        right: 25px;
+    }
+    &__right-svg {
+        position: absolute;
+        top: 19px;
+        left: 24px;
+    }
+}

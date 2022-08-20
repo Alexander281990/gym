@@ -1,0 +1,88 @@
+.footer {
+    background-color: #313131;
+    padding-top: 175px;
+    padding-bottom: 24px;
+    color: white;
+    &__h2-text {
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 65px;
+        line-height: 82px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &__form {
+        margin-bottom: 189px;
+        text-align: center;
+    }
+    &__input-text {
+        margin-right: 20px;
+        width: 420px;
+        height: 58px;
+        background-color: #313131;
+        border-bottom: 2px solid white;
+        padding-left: 10px;
+        color: #FFFFFF;
+        font-size: 18px;
+    }
+    &__button {
+        background: #FFFFFF;
+        height: 58px;
+        width: 160px;
+        box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+        border-radius: 5px;
+    }
+    &__content {
+        display: flex;
+        margin-bottom: 73px;
+        justify-content: space-between;
+    }
+    &__fitnes {
+        display: flex;
+        flex-direction: column;
+    }
+    &__fitnes-logo {
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        margin-bottom: 28px;
+    }
+    &__fitnes-text {
+        letter-spacing: 1px;
+    }
+    &__links {
+        display: flex;
+        flex-direction: column;
+    }
+    &__li {
+        margin-bottom: 23px;
+        list-style-type: none;
+    }
+    &__a {
+        color: white;
+        text-decoration: none;
+        letter-spacing: 1px;
+    }
+    &__company {
+        display: flex;
+        flex-direction: column;
+    }
+    &__get-touch {
+        display: flex;
+        flex-direction: column;
+    }
+    &__end {
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        font-feature-settings: 'liga';
+        text-align: center;
+        letter-spacing: 1px;
+    }
+}

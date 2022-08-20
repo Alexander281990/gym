@@ -1,0 +1,77 @@
+.testimonials {
+    margin-bottom: 140px;
+    &__content {
+        margin-top: 67px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        width: 490px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 25px;
+    }
+    &__left-h4 {
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 130%;
+        color: #313131;
+        margin-bottom: 20px;
+    }
+    &__left-text {
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #5F5F5F;
+        margin-bottom: 60px;
+    }
+    &__left-grade {
+        display: flex;
+        margin-bottom: 40px;
+    }
+    &__star {
+        margin-right: 5px;
+    }
+    &__left-name-1 {
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 130%;
+        color: #313131;
+        margin-bottom: 5px;
+    }
+    &__left-name-2 {
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #B8B8B8;
+        margin-bottom: 100px;
+    }
+    &__dots-tabs {
+        display: flex;
+    }
+    &__tab {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: #EEF7FB;
+        margin-right: 6px;
+        cursor: pointer;
+        &_active {
+            background-color: #313131;;
+        }
+    }
+    &__right {
+        width: 468px;
+        height: 674px;
+        background-image: url(../img/footer_boy.png);
+    }
+}

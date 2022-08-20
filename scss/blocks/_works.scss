@@ -1,0 +1,97 @@
+.works {
+    padding-bottom: 140px;
+    position: relative;
+    &__dots {
+        position: absolute;
+        right: 0px;
+        bottom: -35px;
+    }
+    &__inner {
+        min-height: 512px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        width: 49.5%;
+    }
+    &__buttons-container {
+        display: flex;
+        margin-top: 40px;
+    }
+    &__button-create {
+        margin-right: 30px;
+        box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+        border-radius: 5px;
+        background-color: $main-color;
+        cursor: pointer;
+        @include text-buttons();
+        color: white;
+        width: 197px;
+        height: 58px;
+    }
+    &__button-help {
+        cursor: pointer;
+        @include text-buttons();
+        color: black;
+        width: 197px;
+        height: 58px;
+        border-radius: 5px;
+        background-color: #fff;
+        border: 1px solid black;
+    }
+    &__divider {
+        height: 100%;
+        border: 1px solid #E0E0E0;
+    }
+    &__right {
+        width: 49.5%;
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        flex-direction: column;
+        //background-color: aqua;
+    }
+    &__item {
+        position: relative;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
+        border-radius: 10px;
+    }
+    &__plus {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        display:inline-block;
+        width:20px;
+        height:20px;
+        background:
+            linear-gradient($main-color,$main-color),
+            linear-gradient($main-color,$main-color);
+        background-position:center;
+        background-size: 50% 2px,2px 50%;
+        background-repeat:no-repeat;
+    }
+    &__item-title {
+        margin-bottom: 20px;
+        @include title-item();
+    }
+    &__item-text {
+        width: 70%;
+        @include text-item();
+    }
+    // &__right-item1 {
+
+    // }
+    // &__right-item2 {
+        
+    // }
+    // &__right-item3 {
+        
+    // }
+
+}
