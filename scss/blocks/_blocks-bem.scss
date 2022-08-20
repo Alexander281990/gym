@@ -29,11 +29,16 @@
 .menu {
     &__list {
         display: flex;
+        //justify-content: space-between;
+        margin-top: -8px;
     }
     &__list-item {
         list-style-type: none;
         margin-left: 50px;
     }
+}
+.logo {
+    margin-top: -8px;
 }
 .link {
     text-decoration: none;

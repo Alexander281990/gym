@@ -1,5 +1,50 @@
 @media (max-width: 1200px) {
     .container-header {
-        max-width: 975px;
+        max-width: 947px;
+    }
+    .header {
+        &__top-inner {
+            height: 45px;
+        }
+        &__content-right {
+            height: 795px;
+            width: 492px;
+        }
+        &__content-left {
+            width: 451px;
+            height: 447px;
+        }
+        &__img-logo {
+            height: 216px;
+            width: 427px;
+        }
+        &__yellow-rectangle {
+            left: 50%;
+            width: 465px;
+            height: 595px;
+        }
+        &__svg-2 {
+            display: none;
+        }
+        &__svg-1 {
+            top: 5%;
+            left: 15%;
+        }
+    }
+    .container {
+        width: 943px;
+    }
+    .form {
+        width: 450px;
+        height: 45px;
+        &__input-text {
+            width: 296px;
+        }
+        &__button {
+            width: 154px; 
+        }
+        &__input-text {
+            margin-right: -9px;
+        }
     }
 }

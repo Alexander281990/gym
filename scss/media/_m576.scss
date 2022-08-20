@@ -1,0 +1,116 @@
+@media (max-width: 576px) {
+    .container-header {
+        width: 100%;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .header {
+        padding-bottom: 65px;
+        padding-top: 0px;
+        &__top {
+            display: none;
+        }
+        &__top-inner {
+            height: 30px;
+        }
+        &__content-right {
+            height: 555px;
+            width: 100%;
+        }
+        &__yellow-rectangle {
+            left: 10%;
+            width: 80%;
+            height: 382px;
+        }
+        &__content-left {
+            width: 100%;
+            height: 447px;
+            margin-bottom: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        &__img-logo {
+            height: 216px;
+            width: 100%;
+        }
+        &__svg-2 {
+            top: 35%;
+            left: 50%;
+            width: 215px;
+            height: 504px;
+        }
+        &__svg-1 {
+            top: 45%;
+            left: -10%;
+            width: 330px;
+            height: 195px;
+        }
+        &__content-inner {
+            flex-direction: column;
+        }
+    }
+    .container {
+        width: 100%;
+    }
+    .form {
+        width: 100%;
+        height: 45px;
+        &__input-text {
+            width: 70%;
+            margin-right: -12px;
+        }
+        &__button {
+            width: 30%; 
+        }
+    }
+    .header-btn {
+        &__up {
+            width: 65px;
+            margin-left: 6px;
+            font-size: 15px;
+            margin-top: -7px;
+        }
+    }
+    .link {
+        font-size: 15px;
+    }
+    .menu {
+        margin-right: 20px;
+        &__list-item {
+            margin-left: 31px;
+        }
+        &__list {
+            margin-top: 0px;
+        }
+    }
+    .logo {
+        margin-top: 0;
+    }
+    .menu-mobile {
+        visibility: hidden;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100vh;
+        background-color: aqua;
+        z-index: 10;
+        &__close {
+            height: 15px;
+            width: 15px;
+            background-color: black;
+        }
+        &.active {
+            visibility: visible;
+        }
+        &__list {
+
+        }
+        &__link {
+
+        }
+        &__a {
+
+        }
+    }
+}

@@ -1,0 +1,58 @@
+@media (max-width: 992px) {
+    .container-header {
+        max-width: 750px;
+    }
+    .header {
+        &__top-inner {
+            height: 45px;
+        }
+        &__content-right {
+            height: 491px;
+            width: 298px;
+        }
+        &__yellow-rectangle {
+            left: 58%;
+            width: 310px;
+            height: 379px;
+        }
+        &__content-left {
+            width: 425px;
+            height: 447px;
+        }
+        &__img-logo {
+            height: 216px;
+            width: 427px;
+        }
+        &__svg-2 {
+            display: none;
+        }
+        &__svg-1 {
+            top: 2%;
+            left: 41%;
+            width: 330px;
+            height: 195px;
+        }
+    }
+    .container {
+        width: 805px;
+    }
+    .form {
+        width: 450px;
+        height: 45px;
+        &__input-text {
+            width: 280px;
+        }
+        &__button {
+            width: 150px; 
+        }
+        &__input-text {
+            margin-right: -12px;
+        }
+    }
+    .header-btn {
+        &__up {
+            width: 125px;
+            margin-left: 6px;
+        }
+    }
+}
