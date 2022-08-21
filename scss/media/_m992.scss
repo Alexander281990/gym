@@ -85,6 +85,7 @@
     }
     .about {
         padding-left: 30px;
+        padding-bottom: 45px;
         &__dots {
             // position: absolute;
             // left: -7px;
@@ -140,5 +141,37 @@
     }
     .title-and-descr__h2 {
         margin-bottom: 5px;
+        font-size: 45px;
+    }
+    ////////////////////////////////
+    .works {
+        padding-left: 30px;
+        &__buttons-container {
+            margin-top: 15px;
+        }
+        &__button-create {
+            margin-right: 20px;
+            width: 130px;
+            height: 40px;
+        }
+        &__button-help {
+            width: 130px;
+            height: 40px;
+        }
+        &__right {
+            width: 49.5%;
+            padding-left: 0px;
+            padding-right: 15px;
+        }
+        &__item {
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+        }
+        &__item-text {
+            width: 90%;
+            font-size: 15px;
+        }
     }
 }

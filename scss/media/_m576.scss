@@ -103,15 +103,15 @@
         &.active {
             visibility: visible;
         }
-        &__list {
+        // &__list {
 
-        }
-        &__link {
+        // }
+        // &__link {
 
-        }
-        &__a {
+        // }
+        // &__a {
 
-        }
+        // }
     }
     //////////////////////////////////
     .partners {
@@ -158,7 +158,7 @@
     .about {
         margin-top: 60px;
         padding-left: 0px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
         &__dots {
             // position: absolute;
             // left: -7px;
@@ -221,5 +221,49 @@
     }
     .title-and-descr__h2 {
         margin-bottom: 23px;
+    }
+    ////////////////////////////////
+    .works {
+        padding-left: 30px;
+        &__dots {
+            right: 0px;
+            bottom: 60px;
+        }
+        &__inner {
+            min-height: 512px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__left {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        &__buttons-container {
+            margin-top: 15px;
+        }
+        &__button-create {
+            margin-right: 20px;
+            width: 200px;
+            height: 40px;
+        }
+        &__button-help {
+            width: 200px;
+            height: 40px;
+        }
+        &__right {
+            width: 100%;
+            padding-left: 0px;
+            padding-right: 15px;
+        }
+        &__item {
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+        }
+        &__item-text {
+            width: 100%;
+            font-size: 18px;
+        }
     }
 }
