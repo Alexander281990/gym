@@ -88,4 +88,75 @@
     .logo {
         margin-top: 0;
     }
+    /////////////////////////////
+    .partners {
+        padding-bottom: 65px;
+    }
+    ////////////////////////////
+    .container-about {
+        width: 560px;
+    }
+    .about {
+        padding-left: 0px;
+        padding-bottom: 65px;
+        &__dots {
+            // position: absolute;
+            // left: -7px;
+            // bottom: 50px;
+            display: none;
+        }
+        &__inner {
+            padding-bottom: 129px;
+            flex-direction: column;
+        }
+        &__img-fon {
+            left: 0;
+            bottom: 0;
+            width: 560px;
+        }
+        &__left {
+            width: 560px;
+            margin-right: 0px;
+            align-items: center;
+        }
+        &__right {
+            width: 560px;
+            align-items: center;
+        }
+        &__left-img {
+            width: 100%;
+            height: 745px;
+            margin-top: 15px;
+        }
+        &__right-img {
+            width: 100%;
+            height: 862px;
+            margin-top: 30px;
+            margin-bottom: -107px;
+        }
+        &__left-text {
+            width: 560px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            font-size: 20px;
+            line-height: 25px;
+        }
+        &__left-svg {
+            top: 16px;
+            right: -16px;
+            width: 560px;
+            height: 745px;
+        }
+        &__right-svg {
+            top: -7px;
+            left: 15px;
+            width: 560px;
+        }
+    }
+    .title-and-descr__text { 
+        width: 370px;
+    }
+    .title-and-descr__h2 {
+        margin-bottom: 5px;
+    }
 }

@@ -3,6 +3,7 @@
         max-width: 750px;
     }
     .header {
+        padding-bottom: 25px;
         &__top-inner {
             height: 45px;
         }
@@ -34,7 +35,7 @@
         }
     }
     .container {
-        width: 805px;
+        width: 750px;
     }
     .form {
         width: 450px;
@@ -54,5 +55,90 @@
             width: 125px;
             margin-left: 6px;
         }
+    }
+    //////////////////////////////////
+    .partners {
+        padding-bottom: 25px;
+        &__dots {
+            bottom: 10%;
+        }
+        &__inner {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__right {
+            grid-template-columns: 261px 261px;
+            grid-template-rows: 108px 108px 108px;
+            grid-gap: 40px;
+            
+        }
+        &__left {
+            padding-top: 0px;
+        }
+        &__item-4 {
+            grid-column: 2 / 3 ;
+        }
+    }
+    ////////////////////////////
+    .container-about {
+        width: 750px;
+    }
+    .about {
+        padding-left: 30px;
+        &__dots {
+            // position: absolute;
+            // left: -7px;
+            // bottom: 50px;
+            display: none;
+        }
+        &__inner {
+            padding-bottom: 129px;
+        }
+        &__img-fon {
+            left: 0;
+            bottom: 0;
+            width: 750px;
+        }
+        &__left {
+            width: 350px;
+            margin-right: 10px;
+        }
+        &__right {
+            width: 390px;
+        }
+        &__left-img {
+            width: 100%;
+            height: 462px;
+            margin-top: 15px;
+        }
+        &__right-img {
+            width: 100%;
+            height: 605px;
+            margin-top: 30px;
+            margin-bottom: -27px;
+        }
+        &__left-text {
+            width: 350px;
+            margin-top: 25px;
+            margin-bottom: -110px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        &__left-svg {
+            top: -99px;
+            right: 10px;
+            width: 350px;
+        }
+        &__right-svg {
+            top: -139px;
+            left: -10px;
+            width: 390px;
+        }
+    }
+    .title-and-descr__text { 
+        width: 370px;
+    }
+    .title-and-descr__h2 {
+        margin-bottom: 5px;
     }
 }

@@ -2,6 +2,9 @@
     .container-header {
         max-width: 947px;
     }
+    .container {
+        width: 943px;
+    }
     .header {
         &__top-inner {
             height: 45px;
@@ -31,9 +34,6 @@
             left: 15%;
         }
     }
-    .container {
-        width: 943px;
-    }
     .form {
         width: 450px;
         height: 45px;
@@ -45,6 +45,59 @@
         }
         &__input-text {
             margin-right: -9px;
+        }
+    }
+    ////////////////////////////
+    .container-about {
+        width: 970px;
+    }
+    .about {
+        padding-left: 30px;
+        &__dots {
+            // position: absolute;
+            // left: -7px;
+            // bottom: 50px;
+            display: none;
+        }
+        &__inner {
+            padding-bottom: 129px;
+        }
+        &__img-fon {
+            left: 0;
+            bottom: 0;
+            width: 970px;
+        }
+        &__left {
+            width: 440px;
+            margin-right: 20px;
+        }
+        &__right {
+            width: 490px;
+        }
+        &__left-img {
+            width: 100%;
+            height: 589px;
+            margin-top: 50px;
+        }
+        &__right-img {
+            width: 100%;
+            height: 750px;
+            margin-top: 70px;
+        }
+        &__left-text {
+            width: 450px;
+            margin-top: 25px;
+            margin-bottom: -110px;
+        }
+        &__left-svg {
+            top: -30px;
+            right: -20px;
+            width: 450px;
+        }
+        &__right-svg {
+            top: -75px;
+            left: 0px;
+            width: 500px;
         }
     }
 }
