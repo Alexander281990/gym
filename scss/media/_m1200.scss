@@ -47,6 +47,32 @@
             margin-right: -9px;
         }
     }
+    //////////////////////////////////
+    .partners {
+        &__dots {
+            bottom: 10%;
+        }
+        &__inner {
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+        &__right {
+            grid-template-columns: 261px;
+            grid-template-rows:repeat(5, 75px);
+            grid-gap: 10px;
+            
+        }
+        &__left {
+            padding-top: 0px;
+        }
+        &__item-4 {
+            grid-column: 1 / 2 ;
+        }
+        &__left-descr {
+            margin-right: 45px;
+        }
+    }
     ////////////////////////////
     .container-about {
         width: 970px;
@@ -99,5 +125,47 @@
             left: 0px;
             width: 500px;
         }
+    }
+    //////////////////////
+    .container-blogs {
+        width: 970px;
+    }
+    //////////////////////////////
+    .container-faqs {
+        width: 970px;
+    }
+    .faqs {
+        margin-bottom: 40px;
+        &__h2 {
+            text-align: center;
+        }
+        &__text {
+            text-align: center;
+            width: auto;
+        }
+        &__content {
+            width: 100%;
+            padding-top: 45px;
+            padding-bottom: 45px;
+            margin-top: 25px;
+            grid-template-columns: repeat(2, 360px);
+            grid-template-rows: repeat(2, auto);
+            gap: 20px;
+        }
+    }
+    .faqs-title-and-descr {
+        padding-left: 15px;
+        padding-top: 15px;
+        padding-bottom: 34px;
+        &__h3 {
+            margin-bottom: 13px;
+        }
+        &__text {
+            width: 345px;
+        }
+    }
+    ///////////////////
+    .container-testimonials {
+        width: 970px;
     }
 }

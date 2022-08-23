@@ -203,4 +203,116 @@
             font-size: 18px;
         }
     }
+    //////////////////////
+    .container-blogs {
+        width: 570px;
+        }
+    .blogs {
+        padding-bottom: 45px;
+        margin: 0 auto;
+        &__content {
+            margin-top: 50px;
+            justify-content: center;
+        }
+        &__left {
+            width: 570px;
+            padding-left: 0px;
+        }
+        &__left-img {
+            width: 570px;
+            height: 270px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: -33px;
+            margin-bottom: 30px;
+        }
+        &__left-text-new {
+            margin-bottom: 10px;
+        }
+        &__left-text-info {
+            margin-bottom: 10px;
+            width: 370px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        &__left-text-descr {
+            width: 370px;
+            min-height: 144px;
+            padding-left: 15px;
+            padding-top: 30px;
+            top: 15px; 
+        }
+        &__right {
+            display: none;
+        }
+    }
+    //////////////////////////////
+    .container-faqs {
+        width: 550px;
+    }
+    .faqs {
+        margin-bottom: 40px;
+        &__h2 {
+            text-align: center;
+            font-size: 35px;
+        }
+        &__text {
+            text-align: center;
+            width: auto;
+            font-size: 17px;
+        }
+        &__content {
+            width: 100%;
+            padding-top: 45px;
+            padding-bottom: 45px;
+            margin-top: 25px;
+            grid-template-columns: repeat(2, 265px);
+            grid-template-rows: repeat(2, auto);
+            gap: 12px;
+        }
+    }
+    .faqs-title-and-descr {
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 34px;
+        &__h3 {
+            margin-bottom: 13px;
+            font-size: 15px;
+        }
+        &__text {
+            width: 260px;
+            font-size: 15px;
+        }
+    }
+    ///////////////////
+    .container-testimonials {
+        width: 550px;
+    }
+    .testimonials {
+        &__content {
+            margin-top: 30px;
+        }
+        &__left-h4 {
+            margin-bottom: 10px;
+        }
+        &__left-text {
+            margin-bottom: 25px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        &__left-grade {
+            margin-bottom: 25px;
+        }
+        &__left-name-2 {
+            font-size: 18px;
+            line-height: 23px;
+            margin-bottom: 20px;
+        }
+        &__right {
+            width: 423px;
+            height: 366px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
 }

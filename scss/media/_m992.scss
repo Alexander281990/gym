@@ -174,4 +174,126 @@
             font-size: 15px;
         }
     }
+    //////////////////////
+    .container-blogs {
+        width: 745px;
+        margin: 0 auto;
+        }
+    .blogs {
+        padding-bottom: 45px;
+        &__content {
+            margin-top: 50px;
+        }
+        &__left {
+            width: 370px;
+            padding-left: 0px;
+        }
+        &__left-img {
+            width: 370px;
+            height: 214px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: -33px;
+            margin-bottom: 30px;
+        }
+        &__left-text-new {
+            margin-bottom: 30px;
+        }
+        &__left-text-info {
+            margin-bottom: 10px;
+            width: 370px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        &__left-text-descr {
+            width: 370px;
+            min-height: 144px;
+            padding-left: 15px;
+            padding-top: 30px;
+            top: 35px; 
+        }
+        &__right {
+            width: 370px;
+            padding-left: 0px;
+        }
+        &__right-img {
+            width: 370px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 214px;
+            margin-top: -33px;
+            margin-bottom: 90px;
+        }
+        &__right-text-info {
+            margin-bottom: 10px;
+            width: 370px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        &__right-text-descr {
+            width: 370px;
+            min-height: 144px;
+            padding-left: 15px;
+            padding-top: 30px;
+            top: 35px;
+        }
+    }
+    //////////////////////////////
+    .container-faqs {
+        width: 750px;
+    }
+    .faqs {
+        margin-bottom: 40px;
+        &__h2 {
+            text-align: center;
+        }
+        &__text {
+            text-align: center;
+            width: auto;
+        }
+        &__content {
+            width: 100%;
+            padding-top: 45px;
+            padding-bottom: 45px;
+            margin-top: 25px;
+            grid-template-columns: repeat(2, 360px);
+            grid-template-rows: repeat(2, auto);
+            gap: 20px;
+        }
+    }
+    .faqs-title-and-descr {
+        padding-left: 15px;
+        padding-top: 15px;
+        padding-bottom: 34px;
+        &__h3 {
+            margin-bottom: 13px;
+        }
+        &__text {
+            width: 345px;
+        }
+    }
+    ///////////////////
+    .container-testimonials {
+        width: 750px;
+    }
+    .testimonials {
+        &__left-text {
+            margin-bottom: 25px;
+        }
+        &__left-grade {
+            margin-bottom: 25px;
+        }
+        &__left-name-2 {
+            font-size: 18px;
+            line-height: 23px;
+            margin-bottom: 80px;
+        }
+        &__right {
+            width: 427px;
+            height: 512px;
+            background-image: url(../img/footer_boy.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
 }
