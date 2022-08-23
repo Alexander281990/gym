@@ -277,6 +277,7 @@
         width: 750px;
     }
     .testimonials {
+        margin-bottom: -2px;
         &__left-text {
             margin-bottom: 25px;
         }
@@ -294,6 +295,28 @@
             background-image: url(../img/footer_boy.png);
             background-repeat: no-repeat;
             background-size: cover;
+        }
+    }
+    //////////////////////
+    .container-footer {
+        width: 750px;
+    }
+    .footer {
+        padding-top: 65px;
+        &__form {
+            margin-bottom: 90px;
+        }
+        &__input-text {
+            height: 45px;
+        }
+        &__button {
+            height: 45px;
+        }
+        &__content {
+            margin-bottom: 40px;
+        }
+        &__end {
+            font-size: 15px;
         }
     }
 }

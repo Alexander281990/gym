@@ -34,7 +34,7 @@
         &__svg-2 {
             display: block;
             top: 35%;
-            left: 50%;
+            left: 40%;
             width: 351px;
             height: 504px;
         }
@@ -313,6 +313,52 @@
             height: 366px;
             background-repeat: no-repeat;
             background-size: cover;
+        }
+    }
+    //////////////////////
+    .container-footer {
+        width: 550px;
+    }
+    .footer {
+        padding-top: 25px;
+        &__h2-text {
+            font-size: 45px;
+            line-height: 55px;
+            margin-bottom: 25px;
+        }
+        &__form {
+            margin-bottom: 50px;
+        }
+        &__input-text {
+            height: 45px;
+            width: 340px;
+        }
+        &__button {
+            height: 45px;
+            width: 130px;
+        }
+        &__content {
+            margin-bottom: 40px;
+        }
+        &__fitnes-logo {
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        &__fitnes-text {
+            letter-spacing: 1px;
+            font-size: 10px;
+            line-height: 15px;
+        }
+        &__li {
+            margin-bottom: 14px;
+            font-size: 10px;
+            line-height: 15px;
+        }
+        &__end {
+            font-size: 15px;
+        }
+        &__a {
+            font-size: 10px;
         }
     }
 }
